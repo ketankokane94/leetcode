@@ -9,7 +9,10 @@ ListNodeInt.class: ListNodeInt.java
 LinkedListUtil.class: LinkedListUtil.java
 	javac LinkedListUtil.java -Xlint
 
-
 prob4.class: prob4.java
 	javac prob4.java -Xlint
 	java prob4
+
+prob5.class: prob5.java prob4.class
+	javac prob5.java -Xlint
+	java prob5
