@@ -16,3 +16,7 @@ prob4.class: prob4.java
 prob5.class: prob5.java prob4.class
 	javac prob5.java -Xlint
 	java prob5
+
+prob6.class: prob6.java
+	javac prob6.java -Xlint
+	java prob6
