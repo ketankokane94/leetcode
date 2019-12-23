@@ -8,3 +8,8 @@ ListNodeInt.class: ListNodeInt.java
 
 LinkedListUtil.class: LinkedListUtil.java
 	javac LinkedListUtil.java -Xlint
+
+
+prob4.class: prob4.java
+	javac prob4.java -Xlint
+	java prob4
