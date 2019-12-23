@@ -1,4 +1,4 @@
-# Basic problems 
+# Basic problems
 
 Repo to maintain solved "basic problems" to signify used of particular Data Structure which are commonly used in SE.
 
@@ -15,17 +15,17 @@ Need Java 8 installed
 I used a makefile to compile and run the required java files to solve the particular problem.
 
 ## Example solves
-* prob1.java - Finding a maximum in a given window.
-* prob2.java - Search in a rotated array.
-* prob3.java - Reverse a linked list.
-* prob4.java - Remove a node with the given key.
-* prob5.java - Remove duplicates in a linked list.
-* prob6.java - Reverse a word, Reverse a sentence.
-
+* prob1.java - Finding a maximum in a given window : Arrays.
+* prob2.java - Search in a rotated array : Arrays.
+* prob3.java - Reverse a linked list : ::.
+* prob4.java - Remove a node with the given key : LL.
+* prob5.java - Remove duplicates in a linked list : LL.
+* prob6.java - Reverse a word, Reverse a sentence : String.
+* prob7.java - String segmentation : String
 
 ## Authors
 
-* **Ketan  Kokane** 
+* **Ketan  Kokane**
 
 ## License
 
