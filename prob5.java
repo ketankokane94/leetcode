@@ -11,15 +11,13 @@ public class prob5{
     LinkedListUtil.print(head);
   }
 
-// O(n2)
+
   public static ListNodeInt remove_dupbs(ListNodeInt head){
     ListNodeInt newHead = new ListNodeInt(-1, head);
     ListNodeInt cursor = newHead.next;
     ListNodeInt prev = newHead;
     HashSet<Integer> set = new HashSet<>();
 
-
-    //O(n)
     while(cursor!= null){
       if(set.contains(cursor.val)){
         prev.next = cursor.next;
@@ -28,7 +26,6 @@ public class prob5{
         set.add(cursor.val);
         prev = cursor;
       }
-
       cursor = cursor.next;
     }
     return newHead.next;
