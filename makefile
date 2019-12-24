@@ -32,7 +32,13 @@ prob8.class: prob8.java
 	javac prob8.java -Xlint
 	java prob8
 
+TreeUtil.class: TreeUtil.java
+	javac TreeUtil.java -Xlint
+	java TreeUtil
 
+prob9.class: prob9.java
+	javac prob9.java -Xlint
+	java prob9
 
 clean:
 	rm *.class
