@@ -1,4 +1,6 @@
 
+PHONY: clean
+
 prob3.class:	prob3.java ListNodeInt.class LinkedListUtil.class
 	javac prob3.java  -Xlint
 	java prob3
@@ -29,3 +31,8 @@ prob7.class: prob7.java
 prob8.class: prob8.java
 	javac prob8.java -Xlint
 	java prob8
+
+
+
+clean:
+	rm *.class
