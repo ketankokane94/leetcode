@@ -22,6 +22,7 @@ I used a makefile to compile and run the required java files to solve the partic
 * prob5.java - Remove duplicates in a linked list : LL.
 * prob6.java - Reverse a word, Reverse a sentence : String.
 * prob7.java - String segmentation : String
+* prob8.java - XML to Tree : String, N-ary tree
 
 ## Authors
 

@@ -25,3 +25,7 @@ prob6.class: prob6.java
 prob7.class: prob7.java
 	javac prob7.java -Xlint
 	java prob7
+
+prob8.class: prob8.java
+	javac prob8.java -Xlint
+	java prob8
